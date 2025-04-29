@@ -1,2 +1,46 @@
-node_modules
+# Ignore node_modules folder
 node_modules/
+
+# Ignore system files and directories
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+
+# Ignore environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore IDE configuration files
+.idea/
+.vscode/
+
+# Ignore OS-related files
+*.log
+*.bak
+*.tmp
+
+# Ignore personal files and directories
+AppData/
+Desktop/
+Downloads/
+Pictures/
+Videos/
+Documents/
+Saved Games/
+
+# Ignore build directories
+.next/
+dist/
+out/
+
+# Ignore large files
+*.zip
+*.tar.gz
+*.tgz
+
+# Ignore Git LFS tracked files
+*.node
